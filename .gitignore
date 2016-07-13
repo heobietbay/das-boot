@@ -3,4 +3,4 @@
 # compiled output
 /target
 /.idea
-/das-boot.iml
+/*.iml
