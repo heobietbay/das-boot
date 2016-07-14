@@ -1,8 +1,14 @@
 package learn.spring.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 /**
  * Created by Administrator on 7/12/2016.
  */
+@Entity
 public class Shipwreck {
 
     public Shipwreck(){};
@@ -18,6 +24,8 @@ public class Shipwreck {
         this.yearDiscovered = yearDiscovered;
     }
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     Long    id;
 
     String  name,
