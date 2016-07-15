@@ -3,4 +3,4 @@
 # compiled output
 /target
 /.idea
-/*.iml
+*.iml

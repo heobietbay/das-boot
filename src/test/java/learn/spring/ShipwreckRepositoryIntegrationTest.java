@@ -17,9 +17,7 @@ import static org.hamcrest.core.Is.is;
 /**
  * Created by Administrator on 7/15/2016.
  */
-@RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(App.class)
-public class ShipwreckRepositoryIntegrationTest {
+public class ShipwreckRepositoryIntegrationTest extends BaseIntegrationTestInterface {
     @Autowired
     private ShipwreckRepository shipwreckRepository;
 
